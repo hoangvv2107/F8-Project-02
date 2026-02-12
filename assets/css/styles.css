@@ -111,6 +111,10 @@ a {
   background: #ffb900;
   width: 180px;
   height: 64px;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 166.667%; 
 }
 .hero .watch-video {
   display: flex;
@@ -118,7 +122,7 @@ a {
   margin-left: 28px;
 }
 .hero .watch-video span {
-  margin-left: 14px;
+  margin-left: 10px;
   color: #171100;
   font-size: 1.8rem;
   font-weight: 600;
@@ -163,7 +167,7 @@ a {
   box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.05);
   position: absolute;
   bottom: 48px;
-  left: 300px;
+  right: -100px;
 }
 .hero .card-wrapper {
   padding: 24px;
