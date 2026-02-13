@@ -36,7 +36,6 @@ button {
   cursor: pointer;
 }
 .btn {
-  display: inline-block;
   min-width: 118px;
   height: 50px;
   display: flex;
@@ -62,7 +61,7 @@ button {
   overflow: hidden;
   -webkit-box-orient: vertical;
 }
-.word-break{
+.word-break {
   word-break: break-all;
 }
 /* =================header================= */
@@ -352,4 +351,127 @@ button {
   font-size: 1.8rem;
   font-weight: 600;
   line-height: 166.667%;
+}
+
+/* feedback */
+.feedback {
+  padding: 96px 135px;
+  background: #2e2100;
+}
+.feedback-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.feedback .avatar {
+  display: block;
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.feedback .name {
+  margin-top: 18px;
+  color: #f7f7f7;
+  font-family: var(--heading-font);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 141.667%;
+}
+.feedback .desc {
+  margin-top: 4px;
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  line-height: 185.714%;
+}
+.feedback .box-dot {
+  display: flex;
+  margin-top: 28px;
+  gap: 6px;
+}
+.feedback .dot {
+  display: block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #634700;
+}
+.feedback .dot--active {
+  background: #ffb900;
+}
+
+.quote {
+  width: 63.25%;
+  color: #fff;
+  font-size: 2.6rem;
+  font-style: italic;
+  line-height: 153.846%;
+  align-self: flex-end;
+  position: relative;
+}
+.quote::before {
+  content: url(../img/quote.svg);
+  display: block;
+  position: absolute;
+  top: -28px;
+  left: -30px;
+}
+
+/* features */
+.features {
+  margin-top: 200px;
+}
+.features-left {
+  width: 48.72%;
+}
+.features-right {
+  width: 40.17%;
+  margin-left: auto;
+}
+.features-wrapper {
+  display: flex;
+}
+.features .box-img {
+  display: flex;
+  justify-content: space-between;
+}
+.features-img {
+  width: 270px;
+  height: 405px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+.features-img-1 {
+  margin-top: 34px;
+}
+.features-info {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+.features-info .title {
+  color: #171100;
+  font-family: var(--heading-font);
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 126.316%;
+  letter-spacing: -0.76px;
+}
+.features-info .desc {
+  color: #5f5b53;
+  line-height: 175%;
+  margin-top: 16px;
+}
+.features-btn {
+  margin-top: 32px;
+  width: 137px;
+  background: #ffb900;
+}
+.features-2{
+  padding: 200px 0;
+}
+.features-2-img {
+  width: 470px;
+  height: 440px;
+  object-fit: cover;
+  border-radius: 20px;
 }
