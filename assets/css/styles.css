@@ -38,7 +38,7 @@ button {
 .btn {
   min-width: 118px;
   height: 50px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   padding: 0 12px;
@@ -445,8 +445,6 @@ button {
 }
 .features-info {
   align-self: center;
-  display: flex;
-  flex-direction: column;
 }
 .features-info .title {
   color: #171100;
@@ -463,7 +461,7 @@ button {
 }
 .features-btn {
   margin-top: 32px;
-  width: 137px;
+  min-width: 137px;
   background: #ffb900;
 }
 .features-2{
