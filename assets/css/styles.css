@@ -64,6 +64,20 @@ button {
 .word-break {
   word-break: break-all;
 }
+.box-dot {
+  display: flex;
+  gap: 6px;
+}
+.dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #634700;
+}
+.dot--active {
+  background: #ffb900;
+}
 /* =================header================= */
 .header {
   padding-top: 36px;
@@ -384,19 +398,7 @@ button {
   line-height: 185.714%;
 }
 .feedback .box-dot {
-  display: flex;
   margin-top: 28px;
-  gap: 6px;
-}
-.feedback .dot {
-  display: block;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: #634700;
-}
-.feedback .dot--active {
-  background: #ffb900;
 }
 
 .quote {
@@ -464,7 +466,7 @@ button {
   min-width: 137px;
   background: #ffb900;
 }
-.features-2{
+.features-2 {
   padding: 200px 0;
 }
 .features-2-img {
@@ -472,4 +474,81 @@ button {
   height: 440px;
   object-fit: cover;
   border-radius: 20px;
+}
+
+/* blog */
+.blog {
+  background: #fffcf4;
+  padding-block: 96px;
+}
+.blog-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.blog .title {
+  color: #130606;
+  font-family: var(--heading-font);
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 126.316%;
+  letter-spacing: -0.76px;
+}
+.blog .desc {
+  margin-top: 16px;
+  color: #696262;
+  line-height: 175%;
+}
+.blog-list{
+  margin-top: 55px;
+  display: flex;
+  gap: 30px;
+}
+.blog-item {
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.05);
+  flex: 1 0 0;
+}
+.blog-body {
+  padding: 20px 20px 28px;
+}
+.blog-img {
+  display: block;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 16px 16px 0 0;
+}
+.blog .box-date {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.blog .box-date .dot {
+  transform: translateY(-50%);
+}
+.blog .date {
+  color: #5f5b53;
+  font-size: 1.4rem;
+  line-height: 185.714%;
+  position: relative;
+}
+.blog .rectangle {
+  width: 160px;
+  height: 1px;
+  border-radius: 0.5px;
+  background: #e2dfda;
+  margin-block: 12px;
+}
+.blog .sub-title {
+  color: #171100;
+  font-weight: 600;
+  line-height: 175%;
+  margin-bottom: 12px;
+}
+
+.blog .box-dot {
+  margin-top: 38px;
+  justify-content: center;
 }
