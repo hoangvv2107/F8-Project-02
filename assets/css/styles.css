@@ -599,6 +599,7 @@ button {
 }
 .footer .address .desc {
   width: 231px;
+  margin-top: 12px;
 }
 .footer .shape {
   margin-top: 38px;
