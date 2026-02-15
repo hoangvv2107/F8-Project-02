@@ -609,7 +609,10 @@ button {
   height: 1px;
   background: #59554b;
 }
-.footer .copyright{
+.footer .copyright {
   margin-top: 28px;
   text-align: center;
+  color: #807d74;
+  font-size: 1.4rem;
+  line-height: 185.714%;
 }
