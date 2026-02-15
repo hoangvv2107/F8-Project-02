@@ -495,6 +495,8 @@ button {
   letter-spacing: -0.76px;
 }
 .blog .desc {
+  width: 448px;
+  text-align: center;
   margin-top: 16px;
   color: #696262;
   line-height: 175%;
